@@ -18,7 +18,7 @@ class PulsePromptServiceProvider extends ServiceProvider
         );
 
         $this->callAfterResolving('livewire', function (LivewireManager $livewire, Application $app) {
-            $livewire->component('pulse.prompt', PulseGPT::class);
+            $livewire->component('pulse.gpt', PulseGPT::class);
         });
     }
 }

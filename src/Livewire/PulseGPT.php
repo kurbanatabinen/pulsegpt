@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace Kurban\PulseGpt\Livewire;
 
@@ -18,8 +18,8 @@ class PulseGPT extends Card
                 'model' => config('openai.model'),
                 'messages' => [
                     [
-                        'role' => config('openai.role'), 
-                        'content' => config('openai.prompt')
+                        'role' => config('openai.role'),
+                        'content' => config('openai.prompt'),
                     ],
                 ],
             ]);
@@ -28,8 +28,8 @@ class PulseGPT extends Card
             $message = $th->getMessage();
         }
 
-        return view('pulsegpt::livewire.prompt', [
-            'message' => $message
+        return view('pulsegpt::livewire.openai', [
+            'message' => $message,
         ]);
     }
 }

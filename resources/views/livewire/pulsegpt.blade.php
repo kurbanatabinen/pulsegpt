@@ -4,7 +4,7 @@
         title="AAA"
     >
         <x-slot:icon>
-            <x-pulsegpt::icons.chatgpt />
+            <x-pulsegpt::icons.openai />
         </x-slot:icon>
     </x-pulse::card-header>
 
