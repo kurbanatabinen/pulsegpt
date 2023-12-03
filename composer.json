@@ -1,0 +1,32 @@
+{
+    "name": "kurban/pulse-gpt",
+    "description": "Openai card for Laravel Pulse",
+    "type": "library",
+    "require": {
+        "livewire/livewire": "^3.2",
+        "openai-php/laravel": "^0.8.0",
+        "illuminate/support": "*",
+        "laravel/pulse": "^1.0@beta"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.13"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kurban\\PulseGpt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kurban Atabinen",
+            "email": "kurban.at@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
