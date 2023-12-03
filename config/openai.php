@@ -7,4 +7,5 @@ return [
     'model' => env('PULSEGPT_MODEL', 'gpt-3.5-turbo'),
     'role' => env('PULSEGPT_ROLE', 'user'),
     'prompt' => env('PULSEGPT_PROMPT', 'Hello :)'),
+    'cache' => env('PULSEGPT_CACHE', 0), // Ms
 ];
