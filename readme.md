@@ -23,9 +23,9 @@ OPENAI_ORGANIZATION=
 OPENAI_REQUEST_TIMEOUT=30
 PULSEGPT_MODEL=gpt-3.5-turbo
 PULSEGPT_ROLE=user
-PULSEGPT_PROMPT="Hello :)"
+PULSEGPT_PROMPT="In one sentence, give me a higly motivational developer quote"
+PULSEGPT_CACHE=300 // In MS
 ```
-
 
 🚀 Add card to your Pulse dashboard:
 ```html

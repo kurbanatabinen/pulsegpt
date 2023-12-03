@@ -6,6 +6,6 @@ return [
     'request_timeout' => env('OPENAI_REQUEST_TIMEOUT', 30),
     'model' => env('PULSEGPT_MODEL', 'gpt-3.5-turbo'),
     'role' => env('PULSEGPT_ROLE', 'user'),
-    'prompt' => env('PULSEGPT_PROMPT', 'Hello :)'),
-    'cache' => env('PULSEGPT_CACHE', 0), // Ms
+    'prompt' => env('PULSEGPT_PROMPT', 'In one sentence, give me a higly motivational developer quote'),
+    'cache' => env('PULSEGPT_CACHE', 300), // Ms
 ];
