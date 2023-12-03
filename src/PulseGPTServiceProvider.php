@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 use Kurban\PulseGpt\Livewire\PulseGPT;
 use Livewire\LivewireManager;
 
-class PulsePromptServiceProvider extends ServiceProvider
+class PulseGPTServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {

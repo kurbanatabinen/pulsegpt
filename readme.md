@@ -8,6 +8,14 @@ This package provides a wonderful **OpenaAI Pulse Card** .
 composer require kurban/pulsegpt
 ```
 
+⚡️ Add Provider your config/app.php [Laravel](https://laravel.com/):
+
+```php
+'providers' => [
+    \Kurban\PulseGpt\PulseGPTServiceProvider::class,
+],
+```
+
 ✅ Set your **environnements** variables 
 ```bash
 OPENAI_API_KEY=
@@ -20,7 +28,7 @@ PULSEGPT_PROMPT="Hello :)"
 
 
 🚀 Add card to your Pulse dashboard:
-```bash
+```html
 <livewire:pulse.gpt cols="3" />
 ```
 
