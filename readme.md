@@ -11,7 +11,7 @@ This package provide a simple **OpenaAI Pulse Card** .
 composer require kurban/pulsegpt
 ```
 
-⚡️ Add Provider your config/app.php [Laravel](https://laravel.com/):
+💻 Add Provider your config/app.php [Laravel](https://laravel.com/):
 
 ```php
 'providers' => [
