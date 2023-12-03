@@ -28,7 +28,7 @@ class PulseGPT extends Card
             $message = $th->getMessage();
         }
 
-        return view('pulsegpt::livewire.openai', [
+        return view('pulsegpt::livewire.pulsegpt', [
             'message' => $message,
         ]);
     }
