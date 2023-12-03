@@ -1,7 +1,7 @@
 
 ![Pulse GPT](./screenshot.png)
 
-This package provides a simple **OpenaAI Pulse Card** .
+This package provide a simple **OpenaAI Pulse Card** .
 
 ------
 
