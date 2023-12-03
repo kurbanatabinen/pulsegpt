@@ -3,7 +3,7 @@
     "description": "Openai card for Laravel Pulse",
     "type": "library",
     "require": {
-        "livewire/livewire": "^3.2",
+        "livewire/livewire": "^3.0",
         "openai-php/laravel": "^0.8.0",
         "illuminate/support": "*",
         "laravel/pulse": "^1.0@beta"
@@ -23,7 +23,8 @@
             "email": "kurban.at@gmail.com"
         }
     ],
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "config": {
         "allow-plugins": {
             "php-http/discovery": true
