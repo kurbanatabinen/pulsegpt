@@ -15,13 +15,13 @@ class PulseGPT extends Card
         $message = '';
 
         try {
-            $message = Cache::remember('openai_chat_result', config('openai.cache'), function () {
+            $message = Cache::remember('openai_chat_result', config('pulsegpt.cache'), function () {
                 $result = OpenAI::chat()->create([
-                    'model' => config('openai.model'),
+                    'model' => config('pulsegpt.model'),
                     'messages' => [
                         [
-                            'role' => config('openai.role'),
-                            'content' => config('openai.prompt'),
+                            'role' => config('pulsegpt.role'),
+                            'content' => config('pulsegpt.prompt'),
                         ],
                     ],
                 ]);

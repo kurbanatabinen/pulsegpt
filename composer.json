@@ -1,6 +1,6 @@
 {
     "name": "kurban/pulse-gpt",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Openai card for Laravel Pulse",
     "type": "library",
     "require": {
